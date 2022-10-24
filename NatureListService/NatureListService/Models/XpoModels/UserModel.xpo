@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dataBaseObjectModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="e3cb80b9-6a65-44e6-bd4a-8001f08a3c20" namespace="NatureListService.Models.Database" dataBaseShemaInfo="H4sIAAAAAAAEAMVW227bMAx9H7B/CPJcxbIs21LhuGiTrijWFUUvw94G2qISY45dWHaS/f3k3Nqk7S5YkD5FPDyMSPGIVnQyn+SdKVYmK4t+1+3R7kn88UN0Bgbv6rKCEV4WuuxYVmGO50b1u+O6fjx2nNls1pt5vbIaOYxS1/n25eouHeMEuhty9mcyyQpTQ5Fi1+7a6UT3kORo2i0X9hp5Bqyha5hg/GCwipwne0M5L1osrqsGI2dlbJzDzLTAw6OCGmMNubGkbXDDvWgydalirTVnqDihClPCvSQgkoMgOmAitAuaavsfK/ImeFDmzaQwW9m/CVtHW8PSGV+Vo6yInGfIFvN39f1rjc/rDNIwEJJrkgRSER4GCRGaC5JI12cqCEJF0xd12nDnP0q9AWNmZaUOX61QTDMhKBHStpajDIiABIikOhSpp135SlffqvY1dKXNv9bzbZnjQfTseVpQz7aYsoARrl2PgJRAGMUQIUzan73qua2sNd9B0oK53PNDItCThFOPEYmCEw9CHdLU45h4B21yO7TM9/ZAzEF6LTizA0u5BHyqCReUkgSYJAGmCnggQwX77fVyKh/8MqNWIFPfDmY7sLi2K3B9RTwESi2kfab3PbqW9/XQlaKfJpSmdk7J0CpacSSQKEb8UHDkQYCgwr0qemU/UaL2bYDqpirTBdhxlvDX5UMiHuL0fP5YoTG9IdTQmzLWc486K3e/tXp+jx51Bk1eNxX2C2zqCvKjzk2T5Fn6GX/elz+w6CdCKDf0uQopRS4hctZbLPYb5PbbgaZtwG2zOd3oVNnUUGfzVV5L6K7RW9AtTsop7hKX6C53YN9D8UORjqEYof1SLezl0byWQ2RP5hGrOnvn3N5II7rAAisrr0E5mWBRm5VGX8Bb5CGabGSXnzIrhZ2Ibd8ibIg51nhqTJlmUNuWrWNecSwCrps8b2V2hmOYZmVlVaTB6sNesF2PfaE6O0/U+BfJ5zbvywoAAA==" generateConnectionHelper="true" generateStoredProcedures="false" fieldNameCase="Unchanged" generateDefaultConstructors="false" useNameOf="true" connectionStringName="UserConnectionString" createdInVersion="22.1.5.0" generateJsonSerializationContractResolver="true" generateServiceCollectionExtensions="true" lastModifiedInVersion="22.1.5.0" name="UserDataModel" xmlns="http://schemas.microsoft.com/dsltools/ORMDataModel">
+  <classes>
+    <dataBaseObjectModelHasClasses Id="26b97e2a-6190-45bb-887b-a547f0719247">
+      <xpObject Id="fff42ed4-0dec-43b6-94a8-f62874a80cfe" name="User" baseClass="XPObject" userFileName="User" designerFileName="User.Designer" className="User" virtualName="User">
+        <fields>
+          <generalXpObjectHasFields Id="04694cc9-11e9-4497-9824-36a3a26e2b70">
+            <field Id="6c76894f-b69d-476b-8f48-b9152d667d0c" name="Login" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="dc55c73d-663e-4843-a91d-c1df7888b343">
+            <field Id="8d2f2880-89d4-4e96-8aba-90f78c3f19fe" name="Password" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+        <mMTarget>
+          <manyToManyRelationship Id="0f629d86-9423-4eaa-b730-1c0b0a7282cb" sourceCollectionName="Roles" name="RoleReferencesUser" targetCollectionName="Users">
+            <xpObjectMoniker Id="33f8039d-0262-4f13-a99a-20e7ea7b0e7e" />
+          </manyToManyRelationship>
+        </mMTarget>
+        <collectionFields>
+          <xpObjectHasCollectionFields Id="87ba21c4-228e-4d7f-83b8-896a5ad0c55a">
+            <collectionField Id="e473fb49-fc0d-443d-a8c4-bb5982e9a73b" name="Roles" />
+          </xpObjectHasCollectionFields>
+        </collectionFields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="609f098b-8323-4ab3-9eb7-907297ea05aa">
+      <xpObject Id="33f8039d-0262-4f13-a99a-20e7ea7b0e7e" name="Role" baseClass="XPObject" userFileName="Role" designerFileName="Role.Designer" className="Role" virtualName="Role">
+        <fields>
+          <generalXpObjectHasFields Id="1d504258-1545-4113-9fc6-97cd44c60fce">
+            <field Id="68214357-8e39-4032-9e84-3a7f70c34eb3" name="RoleName" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+        <collectionFields>
+          <xpObjectHasCollectionFields Id="be9fef6a-3f1d-4f1e-b242-05c1d35bdcb8">
+            <collectionField Id="dd7ec5ed-de90-4302-99d3-32804af02873" name="Users" />
+          </xpObjectHasCollectionFields>
+        </collectionFields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+  </classes>
+</dataBaseObjectModel>

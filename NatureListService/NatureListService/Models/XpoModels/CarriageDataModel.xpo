@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dataBaseObjectModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="cbf3e204-0b4e-4cfa-9c6a-da73fea2f3bf" namespace="NatureListService.Models.CarriageDataModel" dataBaseShemaInfo="H4sIAAAAAAAEAN1Z224bNxB9D5B/EPwcSrxfAllBYieB0dQNYqft65Ac2otKK0Mr2c7fd1aWFd/SurC8QvMiiMMhlmdnOHMOd/jmcjLuneOsqab17o7o8503o5cvhu+gwaP5dAYneFCXaY+86ub1ZZN3d07n87PXg8HFxUX/QvWns5OB5FwM/vz101E6xQnsrJ2rf3dmVd3MoU64Q0/t9YbHEMfYtI9cjq8tNwzXpkOY4GgPZrOK9jgcfLet3d7XrW00ny1ofjVYT+5XTWv4epZhjqMC44acbhvXvh8XVT7IIymVtslIlpWNTIMPDEBnZmKRxiSbI5fDwcp5vXhvOl5M6uYWgh+aaaLFcDU5Op5BVQ8HNyy3PP8J33/FeBMnEryUpWXKe8layCyi0MzkiCY6xVVJ93DS8sEToH6YTSdHc5hTFnYPWKsigkyRSa2AaU9YASINY+JKSiwqm00DPp5uDW4pFqT2iqVoCG40hnkFlkkpofCClOd503AP6vNplbB7sCEqZ2XKLJcUmNaaDq3TikUOEpJ2kcewabCfp03Vhvag3tIJLoBJOIys6OyZlsgZRCgMA+gIIXoeYdOgr0vx4WIScdY9ZkAIkERkigdHWe2panHlWQ5CcS+isPJ+dX5y1cLq5HR+/O1sC5nNQ+ToLbJUrGG6gGBBlcw059pxpaPT9pkA/7H87R5yirr4CIrl9kcXqtEB0LESlVQiAZbNx/gTNPPtdSYB1hTJWfZo6SAbZFEHw4RXDjEkF3DjpXpZsw7qjJfd41WKuIUKgkUnEtMBW+phOFMCojYJXJbq0Xgfsq6I4qMJ5qqAd8AujSd6BYminJVm2mBgHk1iwoasguM6Bb1RdrmtQu09COsoxgRRMJ0E5bQkNkIVG3IUKii/8UO8pXSWytsMQCQ62TadtWQ+SMFU4KiSE1w412k6rwtZF3LJ5gzaFyZQUH9CRWfZk6owUaZQAKyy90nIkxKa/nYfY1uKscInBiZQT+KgmU+WWGZWaEhFIefdlqzfznDWXZRJAUvDSTvx3GonLQSDEiRTSfngRIkO+U8QZaOykoGqlIxIxxlJS3jdpjUpZRuRBxMe34g3GuX2SHdz/0FcI2mPuRWKrZQiwgkYBctZJ4p+kVndz/SnhPpGJndOvIIwJCaQyeKocksq30Fl0hWkLoQkDup42XST2l8GsnOt6IhcACrK54SEj8hm8N4yJWWJgueC0m8a6db4tFGRxKBqSRa2JKuQgIgamHNSWOuWs88ljLtH62IRKbRE2rZoNaWz15wUctSWW4wxpMdf5G2iaK1vgbrg09Z4iilpJRWpTntOea2iY1ygLdSvE72an4JPKw8FuDEM2otLDURFgiOmKan9RoHESB64ln7OKN+6Fekg0kJmaaSLTIREFKR4z2LSnBnwJXplsuL3Wfb/j4J4XzQGblm2dIZ1ypFFQz0YEZSCkIrS9wXis2vjlbLqIMwkGnxJurDs288vub2lN4IzynGbuDBQ0mbDvCXRaLSTOQfHUFBn0oKql8fEGSfWWUTh1K83e55X4+8uw/bLH+bPs2laGnuDK/PvV58JR/t4/v7ybIZN0yfOAv1zKfviVW81vduO+qbPX/X2FuP5Yoa7NS7mMxi/6n1exHGVfsFvx9O/sN6N3mfhjM6Oc9SB5OD1I5bP2xtD02DTBuDLYv12h28zbQ1Ldbna15XpaFFumb7gZHqOdx2vrHd996DB0dc6nUJ90l6oLcdXr+ahPQzpzRA1nVdb3tsPtjH8iHVLnClrJxOs580qR++ZbznvY1Od0N8PFaXCnRW355bL9nGMc3zbNNNULcnc9ZoHJpYLDhfjcZtm7/AUzqvpjLKoAOUHHbC7My9fDAd3PkCP/gbOPd3pqR4AAA==" generateConnectionHelper="true" generateStoredProcedures="false" fieldNameCase="Unchanged" generateDefaultConstructors="false" useNameOf="true" connectionStringName="StorageConnectionString" createdInVersion="22.1.5.0" generateJsonSerializationContractResolver="true" generateServiceCollectionExtensions="true" lastModifiedInVersion="22.1.5.0" name="CarriageDataModel" xmlns="http://schemas.microsoft.com/dsltools/ORMDataModel">
+  <classes>
+    <dataBaseObjectModelHasClasses Id="c6779d4b-5186-465c-bffa-021e13d2d066">
+      <xpObject Id="22346c52-d36b-4a89-aa4d-5bf255c6db02" name="Carriage" baseClass="XPObject" userFileName="Carriage" designerFileName="Carriage.Designer" className="Carriage" virtualName="Carriage">
+        <fields>
+          <generalXpObjectHasFields Id="e7c136af-3118-46fe-a9c0-d7dfefbb881e">
+            <field Id="e36bcd26-3882-46c5-be14-5dbe5b7303fc" name="Train" virtualColumnType="Train" logicalType="Train" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="8dada7d5-4225-421d-8ddd-e5062ef0cf5d">
+            <field Id="333fc391-b71c-49e5-be50-31ab45ca7d23" name="TrainIndex" virtualColumnType="TrainIndex" logicalType="TrainIndex" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="60309978-c13a-4ed8-a48e-80dff7017904">
+            <field Id="43f192cb-243a-4814-aabb-2bc0322ef3d5" name="FromStation" virtualColumnType="Station" logicalType="Station" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="eeb922b8-0a1c-4949-a134-663e3ed3c76e">
+            <field Id="ff6a2483-cb5a-4b55-83a6-222af0fe223d" name="ToStation" virtualColumnType="Station" logicalType="Station" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="a177b54b-e3f8-441a-8e2a-09ce32dbca73">
+            <field Id="9b3762cd-dfc9-4449-a743-b0a2ac47b0b9" name="Invoice" virtualColumnType="Invoice" logicalType="Invoice" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="45495784-fd0f-4fde-8599-f0c7c494030d">
+            <field Id="faec17eb-f4d8-42e0-abaf-e9a4ba9b80ba" name="PositionInTrain" columnType="UInt32" virtualColumnType="UInt32" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="90f66e43-0860-439f-b067-26720ac10055">
+            <field Id="aea9ac1b-3097-4b85-b038-d913081b1622" name="CarriageNumber" columnType="UInt32" virtualColumnType="UInt32" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="5cfb9772-98cd-475f-94b4-95de8edfcb2e">
+            <field Id="09b0e86e-cf65-4fa1-93fd-40047034b746" name="FreightType" virtualColumnType="FreightType" logicalType="FreightType" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="e9df9c00-e60b-4d02-b7c7-57ff06694715">
+            <field Id="cb4f8ba3-dba3-4fbb-9ae7-fb3231caef22" name="FreightWeight" columnType="UInt32" virtualColumnType="UInt32" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+        <saTargets>
+          <simpleAssociation Id="caed1006-4d25-4168-8769-aed1c964a213" sourceCollectionName="OperationStates" name="OperationStateReferencesCarriage" targetFieldName="Carriage">
+            <xpObjectMoniker Id="9edc48ed-2229-44a1-aeb1-dd4c0d3f2d33" />
+          </simpleAssociation>
+        </saTargets>
+        <collectionFields>
+          <xpObjectHasCollectionFields Id="7ce267db-6605-4373-96fb-1fcd477f2d88">
+            <collectionField Id="89b046f3-47e5-437c-9536-32de2fba51a4" name="OperationStates" />
+          </xpObjectHasCollectionFields>
+        </collectionFields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="f43b211d-edbc-4408-bb21-5682c73cd07a">
+      <xpObject Id="58dbeac6-4d34-45e9-8e5c-169d39704c94" name="Train" baseClass="XPObject" userFileName="Train" designerFileName="Train.Designer" className="Train" virtualName="Train">
+        <fields>
+          <generalXpObjectHasFields Id="c714bdde-20af-44b2-9f7e-f11ad3c4efde">
+            <field Id="88a16791-5e91-4c1e-b283-b85adb139382" name="Number" columnType="UInt32" virtualColumnType="UInt32" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+        <saTargets>
+          <simpleAssociation Id="019ba88c-e3f0-400e-ade2-3867bdd12a11" sourceCollectionName="Carriages" name="CarriageReferencesTrain" targetFieldName="Train">
+            <xpObjectMoniker Id="22346c52-d36b-4a89-aa4d-5bf255c6db02" />
+          </simpleAssociation>
+        </saTargets>
+        <collectionFields>
+          <xpObjectHasCollectionFields Id="62f26650-8b0d-43fe-8726-6c70a83ec323">
+            <collectionField Id="ce4b3804-125d-4240-ab59-2c28b1b4846d" name="Carriages" />
+          </xpObjectHasCollectionFields>
+        </collectionFields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="a6164e0e-67b1-4746-81cf-09eef7dc78dc">
+      <xpObject Id="26dda48f-1e15-4e35-b826-5b2c9faa636a" name="Station" baseClass="XPObject" userFileName="Station" designerFileName="Station.Designer" className="Station" virtualName="Station">
+        <fields>
+          <generalXpObjectHasFields Id="73228a69-0fdf-46bb-bbd9-9b3a411dde2b">
+            <field Id="6ff5618c-a593-40a4-8c69-ad3e5d26e003" name="Name" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+        <saTargets>
+          <simpleAssociation Id="38d64904-116d-4bff-a0d6-542686f59843" sourceCollectionName="CarriagesTo" name="CarriageReferencesStation" targetFieldName="FromStation">
+            <xpObjectMoniker Id="22346c52-d36b-4a89-aa4d-5bf255c6db02" />
+          </simpleAssociation>
+          <simpleAssociation Id="f0c5654c-a621-4f51-ac40-45aa8caad105" sourceCollectionName="CarriagesFrom" name="CarriageReferencesStation1" targetFieldName="ToStation">
+            <xpObjectMoniker Id="22346c52-d36b-4a89-aa4d-5bf255c6db02" />
+          </simpleAssociation>
+          <simpleAssociation Id="e596c706-65ca-4e50-ba4a-b4541db491e3" sourceCollectionName="OperationStates" name="OperationStateReferencesStation" targetFieldName="Station">
+            <xpObjectMoniker Id="9edc48ed-2229-44a1-aeb1-dd4c0d3f2d33" />
+          </simpleAssociation>
+        </saTargets>
+        <collectionFields>
+          <xpObjectHasCollectionFields Id="cbb2d6bd-fc8b-4f88-a672-3f31e5f72448">
+            <collectionField Id="2590be7c-eaae-49c7-bfbc-90848c7bb876" name="CarriagesTo" />
+          </xpObjectHasCollectionFields>
+          <xpObjectHasCollectionFields Id="d48af91e-7955-442d-917b-81e8eb5a71cf">
+            <collectionField Id="12dc2570-269e-4e20-a874-6869134649fc" name="CarriagesFrom" />
+          </xpObjectHasCollectionFields>
+          <xpObjectHasCollectionFields Id="b717adc8-13cd-4876-ac4c-2fe5b488937a">
+            <collectionField Id="6fe47c6c-87fa-466c-849e-38f416f7ccd0" name="OperationStates" />
+          </xpObjectHasCollectionFields>
+        </collectionFields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="c3045105-0140-4fcc-86fa-b1ee4d9ddc7c">
+      <xpObject Id="aa4250cb-0d3a-4411-af92-3c38971fb7e0" name="Operation" baseClass="XPObject" userFileName="Operation" designerFileName="Operation.Designer" className="Operation" virtualName="Operation">
+        <fields>
+          <generalXpObjectHasFields Id="10ab3e13-cc4c-41c7-94c8-2d62f804fe5f">
+            <field Id="53d32983-2be2-4ec9-8415-4bcd6be0959d" name="Name" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+        <saTargets>
+          <simpleAssociation Id="23c8d82f-c946-472d-97c9-fbf1c0a8a8b3" sourceCollectionName="OperationStates" name="OperationStateReferencesOperation" targetFieldName="Operation">
+            <xpObjectMoniker Id="9edc48ed-2229-44a1-aeb1-dd4c0d3f2d33" />
+          </simpleAssociation>
+        </saTargets>
+        <collectionFields>
+          <xpObjectHasCollectionFields Id="aa903fd9-ce3b-4f03-aa1d-12a6c4ff0fb4">
+            <collectionField Id="57b36c58-18f5-4fa2-8a87-ee0869d5c435" name="OperationStates" />
+          </xpObjectHasCollectionFields>
+        </collectionFields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="da3c5af7-8ad7-43e2-93a1-c1b513e6a244">
+      <xpObject Id="9edc48ed-2229-44a1-aeb1-dd4c0d3f2d33" name="OperationState" baseClass="XPObject" userFileName="OperationState" designerFileName="OperationState.Designer" className="OperationState" virtualName="OperationState">
+        <fields>
+          <generalXpObjectHasFields Id="aba1556a-bb87-4932-a9e0-726a8d501f23">
+            <field Id="4915c1be-2f7c-426c-93d7-4309128ba70f" name="Operation" virtualColumnType="Operation" logicalType="Operation" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="c6ca2e00-5a41-4ca8-a52b-3fcc1212cb27">
+            <field Id="f7970ae3-84ce-4320-9886-322fb10dfe28" name="Date" columnType="DateTime" virtualColumnType="DateTime" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="f7ee3570-14b2-49a7-a880-9f736e688c59">
+            <field Id="7bf1c91c-46e4-44be-840b-3b4606ebb9cc" name="Carriage" virtualColumnType="Carriage" logicalType="Carriage" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="8d77a908-96b2-47e1-9063-1b29bb40ad37">
+            <field Id="f7d78995-7d14-4dc6-a654-e775a2be14c3" name="Station" virtualColumnType="Station" logicalType="Station" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="8cb6cb7b-f864-4cff-bb4b-b21c5ff781d7">
+      <xpObject Id="56581665-13b5-4800-93b7-01e6f18cc1c9" name="Invoice" baseClass="XPObject" userFileName="Invoice" designerFileName="Invoice.Designer" className="Invoice" virtualName="Invoice">
+        <fields>
+          <generalXpObjectHasFields Id="39c34d6c-2545-45e6-a6f7-fed321f411d3">
+            <field Id="38afa055-a814-4a8c-9742-2971b1e40a02" name="Number" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+        <saTargets>
+          <simpleAssociation Id="f9764f66-2e8f-4c70-a748-1c52044f0866" sourceCollectionName="Carriages" name="CarriageReferencesInvoice" targetFieldName="Invoice">
+            <xpObjectMoniker Id="22346c52-d36b-4a89-aa4d-5bf255c6db02" />
+          </simpleAssociation>
+        </saTargets>
+        <collectionFields>
+          <xpObjectHasCollectionFields Id="79333857-1292-44ed-9924-524a5cd1257f">
+            <collectionField Id="4964bc47-be2a-482b-93ea-0a54b81bde76" name="Carriages" />
+          </xpObjectHasCollectionFields>
+        </collectionFields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="e4eb4952-7721-4724-a1da-ed940bf84913">
+      <xpObject Id="12d2527b-19ca-4f88-bc40-5a8fb835d307" name="FreightType" baseClass="XPObject" userFileName="FreightType" designerFileName="FreightType.Designer" className="FreightType" virtualName="FreightType">
+        <fields>
+          <generalXpObjectHasFields Id="1ac533bc-e17a-4d14-9271-c59223eea83b">
+            <field Id="88f4e906-d60b-4cdb-b5a1-eea33a9cf344" name="Name" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+        <saTargets>
+          <simpleAssociation Id="cbe86d5c-5919-4072-b531-57574298912f" sourceCollectionName="Carriages" name="CarriageReferencesFreightType" targetFieldName="FreightType">
+            <xpObjectMoniker Id="22346c52-d36b-4a89-aa4d-5bf255c6db02" />
+          </simpleAssociation>
+        </saTargets>
+        <collectionFields>
+          <xpObjectHasCollectionFields Id="73a3864e-d7dd-4704-8db0-0a2653038c89">
+            <collectionField Id="a26ed46c-9b9d-47b4-b0f8-b23c7127a269" name="Carriages" />
+          </xpObjectHasCollectionFields>
+        </collectionFields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="1e4dc25f-6fda-4f56-a89e-b8065636722c">
+      <xpObject Id="c9f8fc4f-d86b-4d14-a510-b1e6c015afc7" name="TrainIndex" baseClass="XPObject" userFileName="TrainIndex" designerFileName="TrainIndex.Designer" className="TrainIndex" virtualName="TrainIndex">
+        <fields>
+          <generalXpObjectHasFields Id="dc832aa9-705f-4962-b4a4-24f364f1d826">
+            <field Id="5472dd97-e14a-41b5-8ec0-04ecf1f07972" name="Index" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+        <saTargets>
+          <simpleAssociation Id="78e6de46-dc64-4976-a6fa-0fba9dc3ffa5" sourceCollectionName="Carriages" name="CarriageReferencesTrainIndex" targetFieldName="TrainIndex">
+            <xpObjectMoniker Id="22346c52-d36b-4a89-aa4d-5bf255c6db02" />
+          </simpleAssociation>
+        </saTargets>
+        <collectionFields>
+          <xpObjectHasCollectionFields Id="bb0521d7-5335-4f54-96b9-35fea222a610">
+            <collectionField Id="fd39c082-10f1-4974-941f-90740e156183" name="Carriages" />
+          </xpObjectHasCollectionFields>
+        </collectionFields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+  </classes>
+</dataBaseObjectModel>
